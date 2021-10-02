@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "SOLID/SOLID Book",
+        "SOLID/SOLID LSP/com/solid/lsp"
+    ]
+}
