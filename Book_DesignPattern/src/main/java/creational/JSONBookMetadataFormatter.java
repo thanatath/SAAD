@@ -13,8 +13,9 @@ import org.json.simple.JSONObject;
 public class JSONBookMetadataFormatter implements BookMetadataFormatter {
 
     private StringWriter writer;
-    private CSVPrinter csvPrinter;
-    private JSONObject jsonPrinter;
+    JSONObject jObj;
+    JSONArray jList;
+
 
     public JSONBookMetadataFormatter() throws IOException {
         reset();
@@ -22,9 +23,10 @@ public class JSONBookMetadataFormatter implements BookMetadataFormatter {
 
     public BookMetadataFormatter reset() {
         writer = new StringWriter();
-
+        jObj = new JSONObject();
+        jList = new JSONArray();
             //csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT);
-            Stream<String> headers = Arrays.stream(Book.Metadata.values()).map(Book.Metadata::getValue);
+            //Stream<String> headers = Arrays.stream(Book.Metadata.values()).map(Book.Metadata::getValue);
             //csvPrinter.printRecord(headers.toList());
 
         return this;
@@ -33,14 +35,18 @@ public class JSONBookMetadataFormatter implements BookMetadataFormatter {
     @Override
     public BookMetadataFormatter append(Book b) {
         String authors = String.join("|", b.getAuthors());
-
+        JSONArray jAuthorsList = new JSONArray();
+        for(String author : b.getAuthors()){ //push many data from author to array
+            jAuthorsList.add(author);
+        }
             //csvPrinter.printRecord(b.getISBN(), b.getTitle(), b.getPublisher(), authors);
-            JSONObject obj = new JSONObject();
-            obj.put("ISBN", b.getISBN());
-            obj.put("Title", b.getTitle());
-            obj.put("Publisher", b.getPublisher());
-            obj.put("authors", authors);
-            System.out.println(obj.toJSONString());
+
+        jObj.put("ISBN", b.getISBN());
+        jObj.put("Title", b.getTitle());
+        jObj.put("Publisher", b.getPublisher());
+        jObj.put("Authors", jAuthorsList);
+            System.out.println(jObj.toJSONString());
+        jList.add(jObj);
 
         return this;
     }
