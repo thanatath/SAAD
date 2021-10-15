@@ -24,7 +24,7 @@ public class Main {
 
         BookMetadataExporter exporter = new CSVBookMetadataExporter();
         exporter.add(TestData.sailboatBook);
-        //exporter.add(TestData.GoFBook);
+        exporter.add(TestData.GoFBook);
         System.out.println(exporter.export());
         //exporter.export();
     }

@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b25fbac-9720-43e4-ba94-df2f7f8d8fb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/BookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/BookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/CSVBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/CSVBookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/JSONBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/JSONBookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/JSONBookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/XMLBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_DesignPattern/src/main/java/creational/XMLBookMetadataExporter.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b25fbac-9720-43e4-ba94-df2f7f8d8fb0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
