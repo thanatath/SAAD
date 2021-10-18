@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0b25fbac-9720-43e4-ba94-df2f7f8d8fb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TaxPayingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TaxPayingHealthcareWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB8/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB8/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

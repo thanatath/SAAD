@@ -36,7 +36,7 @@ public class Main {
         theGoodDoctor.addMember(timeAnotonia);
         theGoodDoctor.addMember(chuku);
 
-/*        System.out.println("================================");
+        System.out.println("================================");
         theGoodDoctor.service();
         System.out.println("The total price of the Good Doctor Team is " + theGoodDoctor.getPrice());
 
@@ -44,6 +44,6 @@ public class Main {
         HealthcareWorkerTeam healthcareSeries = new HealthcareWorkerTeam();
         healthcareSeries.addMember(teamMedicalDragon);
         healthcareSeries.addMember(theGoodDoctor);
-        System.out.println("The total price of the healthcare series is " + healthcareSeries.getPrice());*/
+        System.out.println("The total price of the healthcare series is " + healthcareSeries.getPrice());
     }
 }

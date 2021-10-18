@@ -2,9 +2,15 @@ package edu.parinya.softarchdesign.structural;
 import java.util.ArrayList;
 
 public class HealthcareWorkerTeam implements HealthcareServiceable {
-    ArrayList<HealthcareWorker> members = new ArrayList<>();
+    ArrayList<HealthcareServiceable> members = new ArrayList<>();
 
     public void addMember(HealthcareWorker member){
+
+        members.add(member);//add member to objWorker
+
+    }
+
+    public void addMember(HealthcareWorkerTeam member){
 
         members.add(member);//add member to objWorker
 
