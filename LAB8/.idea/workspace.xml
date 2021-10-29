@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b25fbac-9720-43e4-ba94-df2f7f8d8fb0" name="Changes" comment="">
+    <list default="true" id="0b25fbac-9720-43e4-ba94-df2f7f8d8fb0" name="Changes" comment="push complete Lab8 (fix)">
+      <change afterPath="$PROJECT_DIR$/LAB8.plantuml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/structural.plantuml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/HealthcareWorkerTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TaxPayingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TaxPayingHealthcareWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoftArchDesign/src/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LAB8/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB8/edu/parinya/softarchdesign/structural/TimeLoggingHealthcareWorker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634244260275</updated>
     </task>
+    <task id="LOCAL-00001" summary="push complete Lab8 (fix)">
+      <created>1634539414652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634539414652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,11 +79,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push complete Lab8 (fix)" />
+    <option name="LAST_COMMIT_MESSAGE" value="push complete Lab8 (fix)" />
   </component>
 </project>
