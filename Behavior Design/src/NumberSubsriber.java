@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.concurrent.Flow;
 
 public class NumberSubsriber extends StringSubscriber{
@@ -11,9 +13,17 @@ public class NumberSubsriber extends StringSubscriber{
     @Override
     public void onNext(Object item) {
         System.out.println(keepNumOnly(item.toString()));
+        try {
+            super.printToFile(keepNumOnly(item.toString()));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
     }
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
+        request(1);
     }
     @Override
     public void onComplete() {
