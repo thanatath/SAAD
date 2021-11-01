@@ -5,21 +5,17 @@ import java.util.concurrent.Flow;
 
 public class AlphabetSubscriber extends StringSubscriber{
 
-    private String keepAlOnly(String input){
 
-        return  input.replaceAll("[^a-zA-Z]+", "");
-
-    }
 
 
 
 
     @Override
     public void onNext(Object item) {
+super.onNext(item);
 
-        System.out.println(keepAlOnly(item.toString()));
         try {
-            super.printToFile(keepAlOnly(item.toString()));
+            super.printToFile(item.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {

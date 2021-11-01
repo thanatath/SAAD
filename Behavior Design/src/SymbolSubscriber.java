@@ -5,13 +5,6 @@ import java.util.concurrent.Flow;
 public class SymbolSubscriber extends StringSubscriber {
 
 
-
-    private String keepSymOnly(String input){
-
-        return  input.replaceAll("[a-zA-Z]|[0123456789]", "");
-
-    }
-
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
         request(1);
@@ -20,9 +13,9 @@ public class SymbolSubscriber extends StringSubscriber {
 
     @Override
     public void onNext(Object item) {
-        System.out.println(keepSymOnly(item.toString()));
+        super.onNext(item);
         try {
-            super.printToFile(keepSymOnly(item.toString()));
+            super.printToFile(item.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {

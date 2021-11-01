@@ -10,13 +10,19 @@ class main {
         new StringPublisher(input).subscribe(new SymbolSubscriber());*/
 
 
-
-        String input = "test123456!@(*#&^";
+        //make text contain
+        String input = "test123456%^&*";
         StringPublisher mainPublisher = new StringPublisher(input);
 
+        System.out.println("--------------------------------");
+
+        //make sub pool
         mainPublisher.subscribe(new AlphabetSubscriber());
         mainPublisher.subscribe(new NumberSubsriber());
         mainPublisher.subscribe(new SymbolSubscriber());
+        System.out.println("--------------------------------");
+        //make it's publisher
+        mainPublisher.publisherAction(input);
 
     }
 }
